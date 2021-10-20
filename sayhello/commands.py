@@ -1,7 +1,6 @@
 import click
 
 from sayhello import app, db
-from sayhello.models import Message
 
 
 @app.cli.command()
